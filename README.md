@@ -1,14 +1,13 @@
 # HTTP5111-HTML-CSS-2nd
 
-![banner](img/htmlcss.png)
+![banner](img/Htmlcss.png)
 
 A repo of course 5111 which contains the code of html/css.
 
 - [Repo Link](https://github.com/SurbhiSinghania13/HTTP5111-HTML-CSS-2nd)
 
 - Samples of code
-  
- - HTML 
+  - HTML 
   ```
    <body>
     <main id="main">
@@ -18,23 +17,23 @@ A repo of course 5111 which contains the code of html/css.
   </main>
   </body>
   ```
- - CSS 
+  - CSS 
   ```
-body
-{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
-    background-color:beige ;
-    font-weight: bold;
-    line-height: 1.25;
-    padding: 2px;
-
-}
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #9e2f00;
-    font-size: 1.5em;
-    font-style: italic;
-    text-align: center;
-    line-height: 1.25;
-}
+  body
+  {
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 1.1em;
+      background-color:beige ;
+      font-weight: bold;
+      line-height: 1.25;
+      padding: 2px;
+  
+  }
+  h1{
+      font-family: Arial, Helvetica, sans-serif;
+      color: #9e2f00;
+      font-size: 1.5em;
+      font-style: italic;
+      text-align: center;
+      line-height: 1.25;
+  }
