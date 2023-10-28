@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@300&display=swap');
+
+/*************************************************************
+ * TABLE OF CONTENTS
+ * =================
+ * 1. GENERAL/DEFAULT STYLES
+ * 2. HEADER
+ * -- 2a. Site name and logo
+ * -- 2b. Navigation
+ * 3. MAIN CONTENT
+ * -- 3a. Hero
+ * -- 3b. Other sections
+ * 4. FOOTER
+ * -- 4a. Navigation
+ *************************************************************/
+
+/* 1. GENERAL/DEFAULT STYLES */
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 300 16px "Open Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#logo-and-site-name,
+#main-navigation {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#main-navigation {
+    font-size: 1.5em;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 1.6em;
+}
+
+#header a {
+    color: #000;
+    text-decoration: none;
+}
+
+#main-navigation a:hover {
+    color: #E0376A;
+}
+
+#logo {
+    color: #E0376A;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.125em 0;
+}
+
+#logo-and-site-name {
+    font-size: 2em;
+    margin: 0;
+}
+
+.content-wrapper {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.hero-text {
+    background: url("../images/Hero image.png") center center;
+}
+
+.hero-text h1 {
+    font-size: 6em;
+    color: #fff;
+    padding: 1.28125em 0.11458em;
+    text-shadow: 5px 5px 0 #E0376A;
+}
+
+#join-us-section {
+    text-align: center;
+}
+
+.feature-text {
+    font-size: 2em;
+}
+
+a {
+    color: #E0376A;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.button,
+button {
+    background-color: #000;
+    color: #fff;
+    font-size: 0.9375em;
+    padding: 0.8em;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0.7333em 0;
+    /* top padding is 27px – 16px margin from paragraph*/
+    min-width: 153px;
+}
+
+a.button:hover,
+button:hover {
+    background-color: #E0376A;
+}
+
+/* 2. HEADER */
+
+
+/* -- 2a. Site name and logo */
+
+
+/* -- 2b. Navigation */
+
+
+/* 3. MAIN CONTENT */
+
+/* -- 3a. Hero */
+
+
+/* -- 3b. Other sections */
+
+
+/* 4. FOOTER */
+
+/* -- 4a. Navigation */

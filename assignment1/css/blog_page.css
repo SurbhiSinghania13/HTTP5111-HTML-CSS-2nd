@@ -1,0 +1,151 @@
+header{
+    background-color: black;
+    color: green;
+    padding: 35px;
+}
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: -10px;
+}
+
+header h1 a{
+    float: left;
+    font-family: 'Croissant One', serif;
+    color: green;
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    float: right;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+.flex1{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.main_post
+{
+    padding: 60px;
+    flex-grow:2;
+    flex-basis:0;
+}
+h2 {
+    font-size: 24px;
+    color: rgb(58, 88, 58);
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.tree_mandala{
+    
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.main_post p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    padding: 20px;
+}
+.side_bar{
+    flex-grow:1;
+  flex-basis:0;
+  border-radius: 5px;
+  padding: 60px;
+}
+.sidebar_table th {
+    background-color: #53855c;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+.sidebar_table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.sidebar_table a{
+    display: block;
+    margin: 10px;
+    font-size: 18px;
+    color: #2d8e4c; 
+    text-decoration: none;
+}
+.sidebar_table a:hover{
+    color: #011c05;
+}
+.other_posts {
+    text-align: center; 
+    padding: 20px;
+    background-color: #f9f9f9; 
+}
+.section_bottom{
+    padding: 20px;
+    margin: 0 auto; 
+}
+.section_bottom img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; 
+    margin: 10px; 
+}
+.section_bottom a {
+    display: block;
+    margin: 10px;
+    font-size: 18px;
+    color: #2d8e4c; 
+    text-decoration: none;
+}
+.section_bottom a:hover {
+    color: #011c05; 
+}
+.comment-form{
+    text-align: center; 
+    padding: 20px;
+}
+.comment-form input[type="text"],
+.comment-form textarea {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.comment-form button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.comment-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+footer{
+    padding: 20px ;
+    background-color: #698d74;
+}
+footer p{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+}

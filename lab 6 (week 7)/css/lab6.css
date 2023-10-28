@@ -1,0 +1,81 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    box-sizing: border-box;
+    font: 300 16px "Poppins", sans-serif;
+
+}
+
+#header {
+    padding: 1.5em 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+#header a {
+    color: #2B0404;
+    text-decoration: none;
+}
+
+#site-name {
+    margin: 0;
+    font-size: 32px;
+    text-shadow: 1px 2px 1px rgb(179, 177, 177);
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 700;
+    gap: 3.5em;
+}
+
+#main-area {
+    background-image: url(../images/macarons\ 1.png);
+    display: grid;
+    background-position: center;
+    background-size: cover;
+    place-items: center;
+    height: 650px;
+}
+
+#hero-text {
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.15em;
+    max-width: 750px;
+    line-height: 90px;
+}
+
+button {
+    color: #AD00FF;
+    border: #AD00FF solid 5px;
+    border-radius: 50px;
+    font-size: 20px;
+    height: 63px;
+    width: 226px;
+}
+
+footer {
+    font-size: 14px;
+    padding: 20px 10px;
+}
