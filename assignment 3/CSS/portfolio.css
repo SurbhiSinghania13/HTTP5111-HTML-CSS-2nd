@@ -1,0 +1,379 @@
+/* Reset and General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling*/
+
+header {
+    position: relative;
+    text-align: center;
+}
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: transform 0.3s ease;
+
+}
+.logo-container:hover {
+    transform: scale(2);
+}
+nav {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Header Image and Content */
+img .header-img {
+    width: 100%;
+    height: auto;
+}
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.header-content h1 {
+    font-size: 55px;
+    transition: transform 1s ease;
+}
+.header-content h1:hover {
+    transform: scale(1.2);
+}
+h1,
+h2,
+p {
+    margin: 0;
+}
+h3 {
+    font-size: 32px;
+}
+
+/* Main Area Styling */
+
+main {
+    padding: 3.125em;
+    /* 50px */
+    margin-top: 1.25em;
+    text-align: center;
+    max-width: 100%;
+}
+p,
+h3,
+ul {
+    font-size: 28px;
+}
+h2 {
+    text-align: center;
+    background-color: #F8CF65;
+    padding: 0.625em;
+    /* 10px */
+    margin-top: 1.25em;
+    /* 20px */
+    display: inline-block;
+    font-size: 26px;
+}
+main img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+main div {
+    padding: 1.25em;
+    /* 20px */
+    display: flex;
+    align-items: center;
+    margin-top: 1.25em;
+    /* 20px */
+    justify-content: center;
+    font-size: 1.625em;
+    /* 26px */
+}
+main div img {
+    margin-right: 9.375em;
+    /* 150px */
+    max-width: 100%;
+}
+main div p {
+    max-width: 40%;
+    font-weight: bold;
+    text-align: justify;
+}
+
+/* Section -Carriers */
+
+section {
+    text-align: center;
+    margin-top: 2.5em;
+    /* 40px */
+}
+.career-div {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2.5em;
+    font-size: 1.625em;
+    /* 26px */
+}
+section div .dates {
+    color: #6F6868;
+    margin-left: 13em;
+    /* 350px */
+}
+.right-flex {
+    margin-left: 2.5em;
+
+}
+#careers h3,
+#educations h3 {
+    text-align: left;
+    margin-bottom: 0.313em;
+    margin-left: 0;
+}
+section div .career-para {
+    margin-top: 1.875em;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.career-divider {
+    border-left: 2px solid black;
+    height: 100%;
+    margin: 0 50px 0 80px;
+}
+
+/* Section -Educations */
+
+.education-div {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    font-size: 26px;
+}
+
+.dates2 {
+    margin-top: 250px;
+    color: #6F6868;
+    margin-left: 320px;
+}
+
+.education-divider {
+    border-left: 2px solid black;
+    height: 100%;
+    margin: 0 50px 0 50px;
+}
+
+section div .education-para {
+    margin-top: 30px;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.education2 {
+    margin-top: 180px;
+    margin-left: 60px;
+}
+
+section div .education2-para {
+    margin-top: 30px;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.education3 {
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+/* Section - Abilities */
+
+.abilities-project-desc {
+    margin-top: 20px;
+    color: #6F6868;
+    font-size: 26px;
+}
+
+.abilities-content {
+    display: flex;
+    margin-left: 350px;
+    margin-top: 2.5em;
+    font-size: 26px;
+}
+
+.coding,
+.lang_tool {
+    margin-left: 20px;
+}
+
+.coding ul,
+.lang_tool ul {
+    list-style-type: none;
+}
+
+.coding ul li,
+.lang_tool ul li {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.coding ul li:first-child,
+.lang_tool ul li:first-child {
+    font-weight: bold;
+}
+
+.lang_tool {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+}
+
+.coding ul li:not(:first-child)::after,
+.lang_tool ul li:not(:first-child)::after {
+    content: "\2605\2605\2605\2605\2605";
+    position: absolute;
+    right: 0;
+    color: gold;
+    left: 300px;
+}
+
+/* Section - Projects */
+
+.project-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5em;
+    margin-bottom: 20px;
+}
+
+.project-content>div {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.project-link{
+    display: inline-block;
+    perspective: 400px;
+    transition: transform 0.5s ease;
+}
+
+.project-link:hover{
+    transform: perspective(400px) translateZ(50px) rotateY(180deg);
+}
+
+.project-link img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.last-project {
+    text-align: left;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.last-project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Section -Contact Me */
+
+.contact-div {
+    margin-top: 20px;
+}
+
+#contact input[type="text"],
+#contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+#contact button[type="submit"] {
+    background-color: #55B7FF;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#contact button[type="submit"]:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 20px;
+    padding: 60px;
+    background-color: #F8CF65;
+    text-align: center;
+}
+footer a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+footer a:hover {
+    transform: scale(1.2);
+}
+footer p {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+}
